@@ -6,9 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-list.component.css']
 })
 export class UserListComponent implements OnInit {
+  names!: string[];
 
-  constructor() { }
-
+  constructor() {
+    this.names = ['deborah','chadrack','mechack'];
+  }
   ngOnInit(): void {
   }
 
